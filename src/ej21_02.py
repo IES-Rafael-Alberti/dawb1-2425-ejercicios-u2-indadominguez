@@ -2,7 +2,7 @@
 
 def main():
 
-    contraseña = "Cadiz CF"
+    contraseña = "cadiz cf"
 
     nueva_contraseña = input("Introduce una contraseña: ")
 

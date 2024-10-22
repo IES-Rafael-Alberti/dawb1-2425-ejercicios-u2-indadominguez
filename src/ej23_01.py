@@ -7,7 +7,6 @@ def pedir_edad() -> int:
         try:
             edad = int(input("Intruduzca su edad: "))
 
-
             if edad < 0:
                  raise ValueError("La edad no puede ser negativa")
             if edad == 0:
