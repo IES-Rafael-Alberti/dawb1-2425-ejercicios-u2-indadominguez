@@ -3,7 +3,6 @@
 def main():
 
     contraseña = "cadiz cf"
-
     nueva_contraseña = input("Introduce una contraseña: ")
 
     if nueva_contraseña.lower() == contraseña.lower():

@@ -5,7 +5,6 @@
 def main():
 
     edad = int(input("Introduzca su edad por favor: "))
-
     sueldo = float(input("Introduzca su sueldo por favor: "))
 
     if sueldo >= 1000 and edad > 16:

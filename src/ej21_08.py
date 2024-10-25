@@ -1,41 +1,30 @@
 # ejercicio 21_08
 
 def calcular_nivel_y_dinero(puntuacion):
-    
-    dinero_por_punto = 2400
-    
-    
-    nivel = ""
-    cantidad_dinero = 0.0
+    dinero_puntos = 2400
 
     if puntuacion == 0.0:
-        nivel = "Inaceptable"
-        cantidad_dinero = 0.0
+        print(f"Nivel de rendimiento: Inaceptable")
+        print(f"Cantidad de dinero: 0.0")
     elif puntuacion == 0.4:
-        nivel = "Aceptable"
-        cantidad_dinero = dinero_por_punto * puntuacion
+        cantidad_dinero = dinero_puntos * puntuacion
+        print(f"Nivel de rendimiento: Aceptable")
+        print(f"Cantidad de dinero: {cantidad_dinero:.2f}€")
     elif puntuacion >= 0.6:
-        nivel = "Meritorio"
-        cantidad_dinero = dinero_por_punto * puntuacion
+        cantidad_dinero = dinero_puntos * puntuacion
+        print(f"Nivel de rendimiento: Meritorio")
+        print(f"Cantidad de dinero: {cantidad_dinero:.2f}€")
     else:
-        nivel = "Puntuación no válida"
-
-    return nivel, cantidad_dinero
+        print("Puntuación no válida")
 
 def main():
-     
     puntuacion = float(input("Ingrese su puntuación (0.0, 0.4, 0.6 o más): "))
     
-     
-    nivel, cantidad_dinero = calcular_nivel_y_dinero(puntuacion)
-
-     
-    if nivel != "Puntuación no válida":
-        print(f"Nivel de rendimiento: {nivel}")
-        print(f"Cantidad de dinero a recibir: {cantidad_dinero:.2f}€")
+    if puntuacion > 0.6:
+        print("Puntuación no valida, introduce un número correto:")
+        
     else:
-        print(nivel)
+        calcular_nivel_y_dinero(puntuacion)
 
- 
-if __name__ == "__main__":
+if __name__== "__main__":
     main()
