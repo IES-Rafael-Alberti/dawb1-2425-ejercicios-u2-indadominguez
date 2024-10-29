@@ -1,4 +1,4 @@
-def calcular_fila(num: int) ->str:
+def calcular_fila1(num: int) ->str:
     fila = ""
     suma = 0
 
@@ -13,13 +13,34 @@ def calcular_fila(num: int) ->str:
     return fila
 
 
-def calcular2(num):
+def calcular1(num):
     resultado = ""
     for i in range(num, -1 ,-1):
-        resultado += f"{i} => " + calcular_fila(i) + "\n"    
+        resultado += f"{i} => " + calcular_fila1(i) + "\n"    
         
     return resultado
 
+def calcular_fila2(num: int) ->str:
+    fila = ""
+    suma = 0
+
+    for i in range(num, -1 ,-1): 
+        fila += str(i)
+        if i < num :
+            fila += " + "
+        if i == num:
+            fila += " = "
+        suma += i
+    fila += str(suma) 
+    return fila
+
+
+def calcular2(num):
+    resultado = ""
+    for i in range(0, num + 1, 1):
+        resultado += f"{i} => " + calcular_fila2(i) + "\n"    
+        
+    return resultado
 
 def comprobar(valor: int):
     if valor < 0:
@@ -45,7 +66,9 @@ def pedir_num():
 
 def main():
     num = pedir_num()
+    print(calcular1(num))
     print(calcular2(num))
+
     
 
 if __name__ == "__main__":
