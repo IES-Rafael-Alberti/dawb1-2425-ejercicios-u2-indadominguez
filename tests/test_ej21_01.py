@@ -19,7 +19,7 @@ def test_main_mayor(mock_print, mock_input):
 
 @patch("builtins.input", return_value="14")
 @patch("builtins.print")
-def test_main_menor(mock_print, mock_input):
+def test_main_menor(mock_print, mock_input): 
     main()
     mock_print.assert_called_once_with("No eres mayor de 18 años enano")
 
