@@ -1,7 +1,5 @@
 # ejercicio 21_05
 
-
-
 def main():
 
     edad = int(input("Introduzca su edad por favor: "))
@@ -11,10 +9,6 @@ def main():
         print("¡Debes tributar el impuesto!")
     else: 
         print("¡No puedes tributar el impuesto!")
-
-
-
-
 
 
 
