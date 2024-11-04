@@ -1,4 +1,4 @@
-# ejercicio 23_1
+# ejercicio 23_01
 
 def pedir_edad() -> int:
     edad = None
