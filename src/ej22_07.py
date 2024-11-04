@@ -7,12 +7,9 @@ def tabla_multiplicar():
             print(f"{i} x {j} = {i * j}")
             print()
 
-
 def main():
 
     tabla_multiplicar()
-
-
 
 
 if __name__ == "__main__":

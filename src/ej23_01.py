@@ -9,11 +9,9 @@ def pedir_edad() -> int:
 
             if edad < 0:
                  raise ValueError("La edad no puede ser negativa")
-            if edad == 0:
+            elif edad == 0:
                  raise ValueError("La edad no puede ser cero")
-            if edad > 125:
-                 raise ValueError("La edad no puede ser mayor que 125!")
-
+            
         except ValueError as e:
             print(f"**Error** {e}. Intentalo de nuevo!")
 
