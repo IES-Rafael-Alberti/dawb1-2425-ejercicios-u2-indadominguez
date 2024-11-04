@@ -21,7 +21,6 @@ def mostrar_anios_cumplidos(edad: int):
     for i in range(1, edad + 1):
             print(i)
 
-
 def main():
     edad = pedir_edad()
     if edad != None:

@@ -8,7 +8,6 @@ def tabla_multiplicar():
             print()
 
 def main():
-
     tabla_multiplicar()
 
 

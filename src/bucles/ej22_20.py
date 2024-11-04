@@ -4,7 +4,6 @@ def main():
      
     frase = input("Ingresa una frase: ")
     letra_buscada = input("Ingresa una letra: ")
-
     encontrada = False
     
     for i in range(len(frase)):
@@ -14,7 +13,6 @@ def main():
         else:
             print(f"No hay coincidencia en la posición {i}.")
 
-    
     if not encontrada:
         print(f"La letra '{letra_buscada}' no se encontró en la frase.")
 

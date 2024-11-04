@@ -1,9 +1,7 @@
 # ejercicio 22_13
 
 def main():
-
     texto = ""
-    
    
     while texto.lower() != "salir":
         texto = input("Introduce un texto: ")
@@ -12,7 +10,6 @@ def main():
             print("Eco:", texto)
     
     print("Bye, bye....")
-
 
 if __name__ == "__main__":
     main()

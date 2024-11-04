@@ -8,7 +8,6 @@ def suma_digitos(numero):
     return suma
 
 def main():
-  
     numero = int(input("Introduce un número entero positivo: "))
 
     if numero < 0:

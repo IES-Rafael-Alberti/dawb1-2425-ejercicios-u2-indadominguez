@@ -1,7 +1,6 @@
 # ejercicio 21_05
 
 def debe_tributar(edad, sueldo):
-    
     return sueldo >= 1000 and edad > 16
 
 def main():

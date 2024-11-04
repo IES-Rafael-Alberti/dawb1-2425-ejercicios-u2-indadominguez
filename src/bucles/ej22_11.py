@@ -7,7 +7,6 @@ def palabra(palabra):
     
 def main():
     palabra_escrita = input("Introduce una palabra por favor: ")
-
     palabra(palabra_escrita)
 
 if __name__ == "__main__":

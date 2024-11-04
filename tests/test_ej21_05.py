@@ -1,6 +1,5 @@
+# test_ej21_05
 
-
-# test_tributo.py
 import pytest
 from src.condicionales.ej21_05 import debe_tributar
 

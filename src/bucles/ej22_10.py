@@ -10,9 +10,7 @@ def verificar_primo(numero):
 
 
 def main():
-    
     numero = int(input("Introduce un número entero: "))
-    
     
     if verificar_primo(numero):
         print(f"{numero} es un número primo.")

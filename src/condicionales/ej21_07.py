@@ -1,7 +1,6 @@
 # ejercicio 21_07
 
 def main():
-
     renta = float(input("Introduzca su renta anual: "))
 
     if renta < 10000:

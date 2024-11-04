@@ -35,7 +35,6 @@ def main():
 
         numeros.append(numero)
 
-
     total_pares = contador_pares(numeros)
     print("Se ingresaron", total_pares, "números pares.")
 

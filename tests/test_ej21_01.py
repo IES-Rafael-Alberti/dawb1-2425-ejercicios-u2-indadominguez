@@ -1,7 +1,5 @@
 # test_ej21_01
 
-# tests/test_edad.py
-
 from src.condicionales.ej21_01 import verificar_edad, main
 from unittest.mock import patch
 
@@ -20,6 +18,6 @@ def test_main_mayor(mock_print, mock_input):
 @patch("builtins.input", return_value="14")
 @patch("builtins.print")
 def test_main_menor(mock_print, mock_input): 
-    main()
+    main()  
     mock_print.assert_called_once_with("No eres mayor de 18 años enano")
 

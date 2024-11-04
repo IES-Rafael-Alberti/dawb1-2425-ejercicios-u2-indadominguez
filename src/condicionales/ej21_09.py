@@ -1,7 +1,6 @@
 # ejercicio 21_09
 
 def main():
-
     edad_cliente = int(input("Introduce tu edad por favor: "))
 
     if edad_cliente < 4:

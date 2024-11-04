@@ -1,7 +1,6 @@
 # ejercicio 21_03
 
 def main():
-
     numero1 = int(input("Introduce el primer numero: "))
     numero2 = int(input("Introduce el segundo numero: "))
 

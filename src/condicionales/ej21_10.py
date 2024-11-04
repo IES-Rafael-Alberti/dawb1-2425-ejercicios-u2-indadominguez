@@ -1,7 +1,6 @@
 # ejercicio 21_10
 
 def main():
-    
     tipo_pizza = input("¿Elige una pizza vegetariana o no vegetariana? ").strip()
     
     if tipo_pizza == "Vegetariana".lower():

@@ -1,7 +1,6 @@
 # ejercicio 21_06
 
 def main():
-    
     nombre_alumno = input("Introduce tu nombre por favor: ")
     sexo_alumno = input("Introduce tu sexo por favor: ")
     

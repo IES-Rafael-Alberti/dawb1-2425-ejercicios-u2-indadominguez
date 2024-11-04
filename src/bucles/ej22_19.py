@@ -10,7 +10,6 @@ def opcion():
     return int(input("Selecciona una opción (1, 2 o 3): "))
 
 def main():
-    
     opcion_usuario = 0
 
     while opcion_usuario != 3:

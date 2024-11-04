@@ -7,7 +7,6 @@ def verificar_edad(edad):
         return"No eres mayor de 18 años enano"
 
 def main():
-
     edad = int(input("Indica tu edad por favor: "))
     print(verificar_edad(edad))
 
