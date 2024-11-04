@@ -6,7 +6,6 @@ def mayor_numero():
 
     print("Introduce números enteros positivos (ingresa 0 para terminar):")
     
-    
     while numero != 0:
         numero = int(input("Número: "))
         
@@ -16,7 +15,6 @@ def mayor_numero():
                 mayor = numero
 
     return mayor
-
 
 def main():
     resultado = mayor_numero()  

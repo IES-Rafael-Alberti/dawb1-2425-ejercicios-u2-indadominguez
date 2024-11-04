@@ -12,12 +12,9 @@ def verificar_contraseña(contraseña_correcta):
             print("Contraseña incorrecta. Inténtalo de nuevo.")
 
 def main():
-    
     contraseña_correcta = "como cuestan los ejercicios"
 
-    
     verificar_contraseña(contraseña_correcta)
-
 
 if __name__ == "__main__":
     main()

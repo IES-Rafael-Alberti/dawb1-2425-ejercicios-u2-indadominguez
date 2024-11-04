@@ -1,6 +1,5 @@
 # ejercicio 22_17
 
-
 def suma_digitos(numero):
     suma = 0
  

@@ -22,12 +22,10 @@ def mostrar_anios_cumplidos(edad: int):
             print(i)
 
 
-
 def main():
     edad = pedir_edad()
     if edad != None:
          mostrar_anios_cumplidos(edad)
-
 
 
 if __name__ == "__main__":

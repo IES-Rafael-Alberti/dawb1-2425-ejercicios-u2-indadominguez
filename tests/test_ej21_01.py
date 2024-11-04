@@ -2,7 +2,7 @@
 
 # tests/test_edad.py
 
-from src.ej21_01 import verificar_edad, main
+from src.condicionales.ej21_01 import verificar_edad, main
 from unittest.mock import patch
 
 def test_verificar_edad_mayor():

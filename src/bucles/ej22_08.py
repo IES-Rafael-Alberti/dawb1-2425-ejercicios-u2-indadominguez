@@ -7,14 +7,12 @@ def hacer_fila(inicio: int) -> str:
 
     return fila.strip()
 
-
 def hacer_triangulo(numero):
     resultado = ""
     for i in range(1, numero + 1, 2):
         resultado += hacer_fila(i) + "\n"    
         
     return resultado
-
 
 def main():
     while True:
@@ -28,7 +26,6 @@ def main():
         except ValueError:
             print("Entrada no válida por favor")
             
-
 
 if __name__ == "__main__":
     main()
